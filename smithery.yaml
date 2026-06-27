@@ -1,0 +1,17 @@
+name: karakalpak-dict-mcp
+description: Karakalpak-Russian dictionary MCP server with 60K words from Baskakov (1958), Turaev (2010), and sozlik.db. Supports KK↔RU translation and Cyrillic/Latin transliteration.
+version: 1.0.0
+license: MIT
+
+runtime: node
+command: node
+args:
+  - server.js
+
+tools:
+  - name: translate_kk_to_ru
+    description: Translate a Karakalpak word to Russian
+  - name: translate_ru_to_kk
+    description: Translate a Russian word to Karakalpak
+  - name: transliterate
+    description: Convert Karakalpak text between Cyrillic and Latin scripts

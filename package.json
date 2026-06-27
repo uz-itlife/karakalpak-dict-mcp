@@ -1,0 +1,34 @@
+{
+  "name": "karakalpak-dict-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Karakalpak-Russian dictionary MCP server — 60K words, Baskakov 1958, Turaev 2010",
+  "main": "server.js",
+  "bin": {
+    "karakalpak-dict-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "data/"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "karakalpak",
+    "dictionary",
+    "translation",
+    "mcp",
+    "model-context-protocol",
+    "russian",
+    "nlp"
+  ],
+  "author": "bahrom9791@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}
