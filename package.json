@@ -1,6 +1,6 @@
 {
   "name": "karakalpak-dict-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Karakalpak-Russian dictionary MCP server — 60K words, Baskakov 1958, Turaev 2010",
   "main": "server.js",
